@@ -1,3 +1,11 @@
-#user-form h3 {
-    margin-bottom: -0.5rem;
+/* * {
+    border: 1px solid red;
+} */
+
+.form-label {
+    font-size: x-large;
+}
+
+.forecast {
+    padding-bottom: 50em;
 }

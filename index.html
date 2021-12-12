@@ -12,15 +12,15 @@
     <title>Weather Dash</title>
 </head>
 
-<body>
+<body class="d-flex flex-column">
     <div class="px-3 py-3 text-center bg-dark bg-gradient text-light">
         <h1>Weather Dash</h1>
     </div>
 
-    <main>
-        <div class="container-fluid bg-light">
+    <main class="d-flex flex-row">
+        <div class="container-fluid">
             <!-- search bar -->
-            <form id="user-form" class="card-body">
+            <form id="user-form" class="card-body d-grid gap-3">
                 <h3>Search for a City or Zip Code:</h3>
                 <input name="city-name" id="city-name" type="text" autofocus="true" class="form-input"/>
                 <button type="submit" class="btn bg-primary text-light">Search</button>
